@@ -10,7 +10,7 @@ description: "From sketching wireframes to mastering Figma in just a few hours, 
 
 ---
   
-> "The success or failure of a product strongly depends on the user experience" By Rochelle Ogbole 
+> "The success or failure of a product strongly depends on the user experience", By Rochelle Ogbole 
 
 I’m constantly amazed by my daughter Rochelle, and today was no exception 🤩. At just 8 years old, she’s already thinking up ideas for mobile apps, explaining them with a level of clarity that could rival a seasoned developer. But maybe I shouldn’t be too surprised—after all, she’s been coding on Scratch since she was 4! 👩‍💻
 
@@ -34,14 +34,14 @@ I created a Figma account for her, and then I headed off to the gym 🏋️‍�
 
 ## Polishing the Design
 
-Once Rochelle finished her designs, I offered some guidance on refining them 💬. I introduced her to advanced concepts like components, instances, and prototyping (linking screens) without ever touching the mouse or keyboard. That’s one of my principles when teaching your kids to to code or work with computers, never take over the controls. I firmly believe that learning by doing is the best way for skills to stick 👌.
+Once Rochelle finished her designs, I offered some guidance on refining them 💬. I introduced her to advanced concepts like components, instances, and prototyping (linking screens) without ever touching the mouse or keyboard. That’s one of my principles when teaching your kids o code or work with computers, never take over the controls. I firmly believe that learning by doing is the best way for skills to stick 👌.
 
 And I must say, Rochelle did an amazing job 👏. The app is designed with a user-friendly interface, perfect for kids. It’s colorful, intuitive, and fun—just what a creativity canvas for children should be 🖌️✨.
 
 
 
 >...without ever touching the mouse or keyboard. 
->That’s one of my principles when teaching your kids to to code or work with computers, never take over the controls..
+>That’s one of my principles when teaching your kids to code or work with computers, never take over the controls..
 
 <p align="center">
   <img width="334" alt="design" src="https://github.com/user-attachments/assets/030164ae-6130-40ad-9498-a5fca5ed0b98">
