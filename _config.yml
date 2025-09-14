@@ -1,0 +1,116 @@
+---
+#-------------------------------
+# Site Settings
+title: israelo.io
+logo: /images/logo.png
+description: I write about eBPF, containers, Kubernetes, and OTel, and journal my daughter Naomi's coding journey here, a nine-year-old with a budding passion for programming. When I'm not working, you'll find me teaching my girls how to code, embarking on long bike trips that sometimes turn into hikes in good weather, playing chess, or enjoying meals and drinks with friends.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://israelo.io" # the base hostname & protocol for your site, e.g. http://example.com
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+formspree: "/f/xqkgwlbl"
+#-------------------------------
+# Author Settings
+author:
+  author__name: Israel Ogbole
+  author__bio: Dad, Engineering Product Manager, MSc, MBA, ex-Solutions Architect, ex-Software Engineer, and now an occasional blogger
+  author__avatar: "/images/avatar.jpeg"
+
+social:
+  - { icon: "ion-logo-twitter", link: "https://twitter.com/israel_ogbole" }
+  - { icon: "ion-logo-linkedin", link: "https://www.linkedin.com/in/israelo" }
+  - { icon: "ion-logo-github", link: "https://github.com/iogbole" }
+
+# Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Hey, I’m Israel Ogbole
+  hero__description: When I'm not taking long bike trips, playing chess, or tinkering with Arduino boards, I'm probably writing about what I do for a living. <br><br>I'm the CEO of zystem, and our product, <a href="https://www.zymtrace.com" target="_blank">zymtrace</a>, is a continuous profiling platform for GPU and CPU workloads, giving me a unique lens into cloud-native observability, eBPF, containers, Kubernetes, and OTel. <br><br> On a more personal note, I love teaching my girls how to code, and I’ll be sharing my daughter Naomi's programming journey here as she discovers her own passion for it. <br><br> I was crazy enough to take on an MBA in Data Analytics—and graduated with distinction. I'm glad that's behind me!
+  hero__image: "/images/bw.jpg"
+
+#-------------------------------
+# Newsletter
+mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+mailchimp__identifier: israelo.us7.list-manage.com/subscribe/post?u=53a3df9344e4aa53e567343bd&amp;id=6b55be21ac # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+mailchimp__input__text: Subscribe here
+mailchimp__button__text: Subscribe
+
+#-------------------------------
+# Gallery Footer Section
+gallery:
+  gallery__title: Certs & Highlights
+  gallery__columns: 3
+  gallery__images:
+    - alt: "CKAD"
+      url: "/images/g3-ckad.png"
+    - alt: "Terraform"
+      url: "/images/g7-tf.png"
+    - alt: "TOGAF"
+      url: "/images/g8-togf.png"
+    - alt: "ea"
+      url: "/images/g10-ea.jpeg"
+    - alt: "Isovalent"
+      url: "/images/g2-goldensig.png"
+    - alt: "MCSA"
+      url: "/images/g6-mcsa.png"
+    - alt: "Azure"
+      url: "/images/g1-azure.png"
+    - alt: "IpV6"
+      url: "/images/g-4ipv6.png"
+    - alt: "arch"
+      url: "https://user-images.githubusercontent.com/2548160/110439966-087de580-80b0-11eb-8aef-4af57fff85b5.jpeg"
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: israel@israelo.io # Add your email for contant form
+  description: Hiya! Reach out to me with any questions, feedback, or inquiries. I will sure get back to you asap   # Add a description of your form
+
+# NOTE
+# Menso theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: https-iogbole-github-io # Add your shortname for Disqus Comment. For example demo-menca
+
+#-------------------------------
+# Google Analytics
+google-analytics: UA-186535929-1
+
+#-------------------------------
+# Build Settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /:title
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+paginate: 27
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      permalink: /:basename:output_ext
+
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      permalink: "/blog/:title/"
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed

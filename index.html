@@ -1,0 +1,41 @@
+---
+layout: default
+image: '/images/bw.jpg'
+---
+
+{% include hero.html %}
+
+<div class="container">
+  <div class="row animate">
+    {% if site.posts.size > 0 %}
+
+    <!-- Show featured posts only on the first page -->
+    {% if paginator.page == 1 %}
+    {% for post in site.posts %}
+    {% if post.featured %}
+    {% include article_featured.html %}
+    {% endif %}
+    {% endfor %}
+
+    <!-- Adding space -->
+    <div style="height: 2em;"></div>
+    {% endif %}
+
+    <br><br> <!-- Inserting new lines -->
+
+    {% for post in paginator.posts %}
+    {% unless post.featured %}
+    {% include article.html %}
+    {% endunless %}
+    {% endfor %}
+    {% endif %}
+  </div>
+</div>
+
+
+
+
+
+{% include pagination.html %}
+
+{% include section-tags.html %}
