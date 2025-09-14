@@ -5,7 +5,7 @@ author: israel
 categories: [ 'Cloud Native' ]
 tags:  [ai,cloud-native ]
 image: https://github.com/user-attachments/assets/6bcadac3-bef4-484c-a6f6-69580e329a2d
-date:   2025-09-15 01:01:35 +0300
+date:   2025-09-15 00:01:35 +0300
 description: "Product managers and founders: Your user journey maps are obsolete. AI agents don't follow human workflows - they execute directly. Discover the new metrics, economics, and product design principles for the agentic era." 
 
 ---
