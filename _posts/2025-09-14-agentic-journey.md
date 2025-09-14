@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "User Journeys Are Dead. Enter the Agentic Journey"
+title:  "User Journeys Are Dead. Enter the Agentic Journey Era"
 author: israel
 categories: [ 'Cloud Native' ]
 tags:  [ai,cloud-native ]
