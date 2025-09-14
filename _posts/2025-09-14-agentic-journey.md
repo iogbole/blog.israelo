@@ -1,15 +1,16 @@
-
 ---
 layout: post
 title:  "User Journeys Are Dead. Enter the Agentic Journey"
 author: israel
 categories: [ 'Cloud Native' ]
-tags: [ai,cloud-native ]
+tags:  [ai,cloud-native ]
 image: https://github.com/user-attachments/assets/6bcadac3-bef4-484c-a6f6-69580e329a2d
 date:   2025-09-14 01:01:35 +0300
+description: "Product managers and founders: Your user journey maps are obsolete. AI agents don't follow human workflows - they execute directly. Discover the new metrics, economics, and product design principles for the agentic era." 
+
 ---
 
-
+_Product managers and founders: Your user journey maps are obsolete. AI agents don't follow human workflows - they execute directly. Discover the new metrics, economics, and product design principles for the agentic era_
 # Introucing the Agentic Journey
 
 I’ve been in product for a long time. Nearly every PRD I’ve ever written was anchored around *user journeys*. What steps does a user take? Where do they drop off? How do we guide them to the outcome?
@@ -19,7 +20,7 @@ That mindset has served us well. But it has to change.
 The future isn’t about users painstakingly working their way through flows we design. It’s about **agents** that can understand intent, plan across systems, and execute on behalf of the user. In this world, the *agentic journey* takes over.
 
 
-## What Inspired This? 
+## What inspired this? 
 
 Before I moved fully into product, I worked as a solution architect at AppDynamics. Back then — pre-COVID — traveling 100% onsite to support customers in both pre-sales and post-sales was just normal. I lived in the adrenaline rush of sitting shoulder to shoulder with customers, troubleshooting in real time, watching them use the tools we built. That 1:1 contact shaped how I thought about products.
 
@@ -30,7 +31,7 @@ That changed recently. On 12 September, I was onsite again, this time watching f
 And it hit me: the act of building product has to evolve. The way we measure product success has to evolve. We have to unlearn a lot of what got us here.
 
 
-## Why the Agentic Journey is Different
+## Why is the agent journey different? 
 
 User journeys are built around human clicks, taps, and choices. They’re full of friction, branching paths, and edge cases.
 
@@ -47,7 +48,7 @@ But there’s more to it than just automation. A few things stand out when you l
 This is what makes the agentic journey so different from traditional user flows. It collapses complexity, reduces friction, and shifts the economic lens of what success means.
 
 
-## Metrics Must Change
+## Product metrics nust change
 
 At Elastic, I looked after BI for a while. I spent a lot of time diving into metrics: MAU, DAU, product segmentation, retention curves. We lived and died by understanding how users moved through the product.
 
@@ -60,7 +61,7 @@ If I were to do it all over again, my approach would be different. The question 
 These are outcome-based metrics, and they reflect the economic reality of building in an agentic world. Engagement for its own sake doesn’t matter anymore. Efficiency and cost per completed outcome do.
 
 
-## Token Economics and Efficiency
+## Token economics and efficiency
 
 Agents don’t run for free. Every reasoning step, every API call, every chunk of text processed burns tokens. And tokens translate directly into dollars.
 
@@ -75,15 +76,12 @@ APIs sit at the center of this. Agents don’t care about a beautiful UI — the
 
 Products that ignore these principles will become too expensive to use. Products that design for compression, context, and efficiency will win.
 
-
-## A Glimpse of the Future: MCP
-
 Anthropic’s Model Context Protocol (MCP) is an early signal of what’s coming. It shows how agents can manage multi-step processes across tools in a structured, context-aware way.
 
 It’s not just a technical shift. It’s a product strategy shift. The ecosystem is moving toward interoperability and agent-first design.
 
 
-## What to Do Now
+## What you must now do
 
 If you’re building or leading product today, here’s where I’d start:
 
@@ -94,7 +92,7 @@ If you’re building or leading product today, here’s where I’d start:
 * Redefine your metrics: measure outcomes and token efficiency, not just logins and clicks.
 
 
-### Closing Thought
+### Closing thought
 
 I used to believe product success was about user journeys and engagement metrics. Then I lost that 1:1 connection with customers. Seeing people work live with zymtrace reminded me: building product is not static.
 
