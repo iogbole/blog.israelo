@@ -75,7 +75,7 @@ When the installation is complete, we will need to reconfigure the LDAP package.
 
 `sudo dpkg-reconfigure slapd`
 
-You will be asked a series of questions about how you&#39;d like to configure the software.
+You will be asked a series of questions about how you'd like to configure the software.
 
 - Omit OpenLDAP server configuration? No
 - DNS domain name?
@@ -110,7 +110,7 @@ sudo apt-add-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
 
-Once that&#39;s done, execute:
+Once that's done, execute:
 
 `sudo update-alternatives --config java`
 
@@ -178,17 +178,17 @@ cd /opt/shibboleth-idp/bin ; ./build.sh -Didp.target.dir=/opt/shibboleth-idp
 
 ```
 
-Shib&#39;s configuration needs a lot of patience, it&#39;s like peeling an onion - one layer at a time and sometimes it makes tear up.  I&#39;d open a new terminal and tail the logs in the test case sessions.
+Shib's configuration needs a lot of patience, it's like peeling an onion - one layer at a time and sometimes it makes you tear up. I'd open a new terminal and tail the logs in the test case sessions.
 
-Let&#39;s get started!
+Let's get started!
 
-Change the directory to the conf folder and let&#39;s start with the `attrribute-resolver-full.xml` file.
+Change the directory to the conf folder and let&#39;s start with the `attribute-resolver-full.xml` file.
 
 ##### 1. attribute-resolver-full.xml
 
 This configuration file defines how user attributes are to be constructed and then encoded prior to being sent on to a relying party trust.
 
-Uncomment the &#39;core schema attributes&#39; block, then scroll to the bottom of the file and define LDAP server attributes as shown below:
+Uncomment the 'core schema attributes' block, then scroll to the bottom of the file and define LDAP server attributes as shown below:
 
  ```xml
    <DataConnector id="myLDAP" xsi:type="LDAPDirectory"
@@ -209,7 +209,7 @@ Uncomment the &#39;core schema attributes&#39; block, then scroll to the bottom 
     </DataConnector>`
 ```
 
-Note that the StartTLSTrustCredential block is commented out because we do not require SSL connection to our LDAP server.  You&#39;ll also need to delete this line: _useStartTLS=&quot;%{idp.attribute.resolver.LDAP.useStartTLS:true}&quot;_
+Note that the StartTLSTrustCredential block is commented out because we do not require SSL connection to our LDAP server. You'll also need to delete this line: _useStartTLS="idp.attribute.resolver.LDAP.useStartTLS:true"_
 
 Ref: [https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-attribute-resolver-full-xml](https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-attribute-resolver-full-xml)
 
@@ -227,7 +227,7 @@ Ref: [https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-serv
 
 ##### 3. attribute-filter.xml
 
-This configuration file acts like shib&#39;s custom officer, it ensures only attributes that are defined are released to a Service Provider.  Add this block of code to the file, and change the value parameter to your controller&#39;s IP or URL.
+This configuration file acts like shib's custom officer, it ensures only attributes that are defined are released to a Service Provider. Add this block of code to the file, and change the value parameter to your controller's IP or URL.
 
  ```xml 
     <AttributeFilterPolicy id="releaseToAppD">
@@ -256,7 +256,7 @@ Further, if you need to provision more that one relying party trust (i.e 2 or mo
             <Rule xsi:type="Requester" value="http://192.168.33.2:8090:8090/controller" />
         </PolicyRequirementRule>
 ```
-The value&#39;s value should be the same as what you&#39;ve specified in the service provider metedata.
+The value's value should be the same as what you've specified in the service provider metadata.
 
 Ref:  [https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-attribute-filter-xml](https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-attribute-filter-xml)
 
@@ -277,7 +277,7 @@ Locate _idp.encryption.optional_ property at line 60. uncomment it and change th
 
 > #If true, encryption will happen whenever a key to use can be located, 
 >
-> #but failure to encrypt won&#39;t result in request failure.
+> #but failure to encrypt won't result in request failure.
 >
 > idp.encryption.optional = true
 
@@ -285,23 +285,23 @@ Ref : [https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-idp
 
 ##### 6. controller.xml
 
-This is where it got a bit challenging, unlike most applications I have worked with in the past, The Service Provider I used to test this out, AppD, does not provide or generate it&#39;s own SAML metadata. This limitation makes it slightly difficult to integrate the Controller with non-cloud-based IdPs like ADFS, PingFed, and especially Shibboleth. I was able to generate a working Controller metadata after a few iterations, and it can be re-used by changing the controller&#39;s URL. Download it from  [https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-controller-xml](https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-controller-xml), modify it i.e change the controller URL and copy it to _/opt/shibboleth-idp/metadata_
+This is where it got a bit challenging, unlike most applications I have worked with in the past, The Service Provider I used to test this out, AppD, does not provide or generate it's own SAML metadata. This limitation makes it slightly difficult to integrate the Controller with non-cloud-based IdPs like ADFS, PingFed, and especially Shibboleth. I was able to generate a working Controller metadata after a few iterations, and it can be re-used by changing the controller's URL. Download it from [https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-controller-xml](https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-controller-xml), modify it i.e change the controller URL and copy it to _/opt/shibboleth-idp/metadata_
 
 ##### 7. metadata-providers.xml
 
-This file defines the IdP&#39;s own metadata location and all other service provider&#39;s  metadata.
-Scroll to the bottom of the file and add this line - to define the controller&#39;s metadata as shown in 6 above.
+This file defines the IdP's own metadata location and all other service provider's metadata.
+Scroll to the bottom of the file and add this line - to define the controller's metadata as shown in 6 above.
 
  ```xml 
  <MetadataProvider id="LocalMetadata" xsi:type="FilesystemMetadataProvider" metadataFile="%{idp.home}/metadata/controller.xml"/>
 ```
-repeat the above line (but change the providerID) for each service provider (ie. controller) you&#39;d like to add.
+repeat the above line (but change the providerID) for each service provider (ie. controller) you'd like to add.
 
 Ref: [https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-metadata-provider-xml](https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-metadata-provider-xml)
 
 ##### 8. access-control.xml
 
-The IdP has a status page that gives a high-level detail of your configurations. In order to access this page from a remote machine, you&#39;d need to provide the IP address of your machine
+The IdP has a status page that gives a high-level detail of your configurations. In order to access this page from a remote machine, you'd need to provide the IP address of your machine
 
 (whatismyip.com) in the allowed IP address ranges.
 
@@ -405,9 +405,9 @@ Next, log in to the Service Provider (in my case, the AppDynamics controller) an
 
 #### Connecting the dots...
 
-1. The login URL is in two parts:   [https://idp.localhost.com:8443/idp/profile/SAML2/POST/SSO?providerId=http://192.168.33.1:8090/controller](https://idp.localhost.com:8443/idp/profile/SAML2/POST/SSO?providerId=http://192.168.33.1:8090/controller). It consists of the IdP URL and the providerID parameter. The value of this parameter must correspond with the EntityID value in the controller.xml file, and it should be the Controller&#39;s URL
-2. SAML Attribute Mappings: These values correspond with the attributes that were specified in the attribute-filter.xml, uid is the user id in LDAP, givenName is the user&#39;s first name and mail are.. duh!
-3. Assign a default role to SAML users, save the settings and let&#39;s authenticate!
+1. The login URL is in two parts: [https://idp.localhost.com:8443/idp/profile/SAML2/POST/SSO?providerId=http://192.168.33.1:8090/controller](https://idp.localhost.com:8443/idp/profile/SAML2/POST/SSO?providerId=http://192.168.33.1:8090/controller). It consists of the IdP URL and the providerID parameter. The value of this parameter must correspond with the EntityID value in the controller.xml file, and it should be the Controller's URL
+2. SAML Attribute Mappings: These values correspond with the attributes that were specified in the attribute-filter.xml, uid is the user id in LDAP, givenName is the user's first name and mail are.. duh!
+3. Assign a default role to SAML users, save the settings and let's authenticate!
 
 #### TEST CASE #2
 
