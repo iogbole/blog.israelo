@@ -4,7 +4,7 @@ title:  "User Journeys Are Dead. Enter the Agentic Journey Era"
 author: israel
 categories: [ 'Cloud Native' ]
 tags:  [ai,cloud-native ]
-image: https://github.com/user-attachments/assets/6bcadac3-bef4-484c-a6f6-69580e329a2d
+image: https://github.com/user-attachments/assets/2828933e-cb22-42f1-8921-eba59d5e61c1
 date:   2025-09-15 00:01:35 +0300
 description: "Product managers and founders: Your user journey maps are obsolete. AI agents don't follow human workflows - they execute directly. Discover the new metrics, economics, and product design principles for the agentic era." 
 
@@ -13,27 +13,31 @@ description: "Product managers and founders: Your user journey maps are obsolete
 _Product managers and founders: Your user journey maps are obsolete. AI agents don't follow human workflows - they execute directly. Discover the new metrics, economics, and product design principles for the agentic era_
 # Introucing the Agentic Journey
 
-I’ve been in product for a long time. Nearly every PRD I’ve ever written was anchored around *user journeys*. What steps does a user take? Where do they drop off? How do we guide them to the outcome?
 
-That mindset has served us well. But it has to change.
+I was a product manager for many years, and now as a founder, I still make lots of product decisions. Across all these years, nearly every product and feature I shipped and every PRD I wrote was anchored around user journeys. What steps does a user take? Where do they drop off? How do we guide them to the outcome?
 
-The future isn’t about users painstakingly working their way through flows we design. It’s about **agents** that can understand intent, plan across systems, and execute on behalf of the user. In this world, the *agentic journey* takes over.
+Most product managers and founders operate in this mindset too. It’s served us well over the years. But it has to change.
+
+The next generation of amazing products won’t be those built for users to (painstakingly) click or tap their way through flows. They’ll be driven by agents that can understand intent, plan across systems, and execute on behalf of the user.
+
+My point is simple: user journeys as we know them will fade, giving way to the _agentic journey_. The next time you think about crafting a user journey, start thinking about the **agents** journey and the token economics that come with it.
 
 
-## What inspired this? 
+## The way we work has changed
 
-Before I moved fully into product, I worked as a solution architect at AppDynamics. Back then — pre-COVID — traveling 100% onsite to support customers in both pre-sales and post-sales was just normal. I lived in the adrenaline rush of sitting shoulder to shoulder with customers, troubleshooting in real time, watching them use the tools we built. That 1:1 contact shaped how I thought about products.
+Before I moved fully into product, I worked as a solution architect at AppDynamics (Cisco). Back then, pre-COVID, traveling 100% onsite to support customers in both pre-sales and post-sales was just normal. I lived in the adrenaline rush of sitting shoulder to shoulder with customers, troubleshooting in real time, watching them use the tools we built. That 1:1 contact shaped how I thought about products.
 
 When I transitioned into product during COVID, that touch faded. Metrics, dashboards, PRDs — they took over. I was still close to outcomes, but the joy of seeing users *in the moment* was gone.
 
-That changed recently. On 12 September, I was onsite again, this time watching folks use **zymtrace**. And what struck me was how naturally teams are now turning to **AI agents** — inside their IDEs, in their CLIs, across their workflows — to handle tasks that used to require manual steps. It brought me right back to that adrenaline rush of seeing people use the product live.
+That changed recently. On 11 September, I was onsite again, this time helping users with [**zymtrace**](https://zymtrace.com). And what struck me was how naturally teams are now turning to **AI agents** inside their IDEs, in their CLIs, across their workflows to handle tasks that used to require manual steps. It brought me right back to that adrenaline rush of seeing customers use the product live.
 
-And it hit me: the act of building product has to evolve. The way we measure product success has to evolve. We have to unlearn a lot of what got us here.
+Sitting next to someone using your product is irreplaceable: their eye movements, their body language, the subtle patterns in how they work — you pick up things you can never see in Zoom meetings, metrics, or dashboards. It brought me right back to the joy of seeing people use the product live.
 
+That experience made me realize something important: _the act of building product has to evolve. The way we measure product success has to evolve. We have to unlearn a lot of what got us here_
 
-## Why is the agent journey different? 
+## What is the agent journey? 
 
-User journeys are built around human clicks, taps, and choices. They’re full of friction, branching paths, and edge cases.
+User journeys are built around human clicks, taps, and choices. They can be full of friction, branching paths, and edge cases.
 
 The agentic journey is different. It’s direct. The agent interprets intent, cuts through complexity, and executes the task. From intent to outcome in a straight line.
 
@@ -50,7 +54,7 @@ This is what makes the agentic journey so different from traditional user flows.
 
 ## Product metrics nust change
 
-At Elastic, I looked after BI for a while. I spent a lot of time diving into metrics: MAU, DAU, product segmentation, retention curves. We lived and died by understanding how users moved through the product.
+When I was Elastic (as Principal Product Manager), I looked after BI for a while. I spent a lot of time diving into metrics: MAU, DAU, product segmentation, retention curves. We lived and died by understanding how users moved through the product.
 
 If I were to do it all over again, my approach would be different. The question isn’t “How many people logged in today?” or “Which feature saw the most clicks?” The questions become:
 
