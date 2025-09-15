@@ -6,11 +6,18 @@ image: 'https://user-images.githubusercontent.com/2548160/278883116-1e5ec95c-7e3
 ---
 
 
-With over a decade of experience shaping the cloud-native observability landscape, I've honed my skills as a product leader, seamlessly blending deep technical expertise with a relentless focus on customer needs. I've successfully launched multiple products, including six from the ground up, driving substantial revenue growth and addressing customer churn. 
+I'm the CEO of zystem, Inc., and our product, <a href="https://www.zymtrace.com" target="_blank">zymtrace</a>, is a continuous profiling platform for GPU and CPU workloads. 
 
-That said, it's through the challenges and missteps that I've gained the **most** valuable insights, shaping my ability to deliver exceptional products.
+My work and previous experience give me a unique perspective on AI workloads, cloud-native observability, eBPF, containers, Kubernetes, and OTel.
 
-Currently at Elastic, I'm leading multiple product charters: 
+Outside of work, you’ll usually find me on a long bike ride, playing chess, tinkering with Arduino boards, writing about my experiences, or spending time with my family.
+
+Prior to co-founding zystem, I worked as Principal Product Manager at Elastic. Before that, I was part of the AppDynamics acquisition into Cisco, where I worked as a Solution Architect and eventually transitioned into a Product Management role. Earlier, I was part of the Yammer acquisition into Microsoft. I left Microsoft to join AppDynamics after witnessing the power of observability over my handcrafted DIY solutions at Yammer/Microsoft.
+
+I discovered eBPF from the need to manage and observe my home-lab Kubernetes cluster. I stumbled across Cilium and Hubble, and everything changed from that point—I became a strong believer in the technology. I focus on this space because I’ve seen many organizations invest in observability solutions but struggle to fully leverage them due to the pain and overhead of instrumentation, code changes, and operational complexity.
+
+Anyways, iff you’re still reading, here’s what I accomplished at Elastic before leaving to pursue a bigger dream:
+
 
 -   **Elastic Universal Profiling:** This **eBPF**-based profiling solution was quite the journey! I joined the team shortly after Elastic acquired optimyze.cloud. My mission? Find product-market fit for "prodfiler," integrate it with the Elastic stack, launch it publicly, and open-source it. The cherry on top? Contributing it to the OpenTelemetry project. Leading a team of successful founders as PM, I helped build trust, achieve milestones, and witness the power of open-source collaboration. Launching, open-sourcing, and contributing to OTel – that takes some serious product know-how! Read all the blogposts on this amazing journey from here - [https://www.elastic.co/blog/author/israel-ogbole](https://www.elastic.co/blog/author/israel-ogbole)
 
