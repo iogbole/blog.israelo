@@ -16,7 +16,12 @@ Prior to co-founding zystem, I worked as Principal Product Manager at Elastic. B
 
 I discovered eBPF from the need to manage and observe my home-lab Kubernetes cluster. I stumbled across Cilium and Hubble, and everything changed from that point—I became a strong believer in the technology. I focus on this space because I’ve seen many organizations invest in observability solutions but struggle to fully leverage them due to the pain and overhead of instrumentation, code changes, and operational complexity.
 
-Anyways, iff you’re still reading, here’s what I accomplished at Elastic before leaving to pursue a bigger dream:
+
+Anyways, if you’re still reading, here’s what I accomplished at Elastic before leaving to pursue a bigger dream:
+
+
+![enter image description here](https://user-images.githubusercontent.com/2548160/220749559-b16a0aac-9624-42b3-ab61-0c87a7cc326c.jpg#wide)
+
 
 
 -   **Elastic Universal Profiling:** This **eBPF**-based profiling solution was quite the journey! I joined the team shortly after Elastic acquired optimyze.cloud. My mission? Find product-market fit for "prodfiler," integrate it with the Elastic stack, launch it publicly, and open-source it. The cherry on top? Contributing it to the OpenTelemetry project. Leading a team of successful founders as PM, I helped build trust, achieve milestones, and witness the power of open-source collaboration. Launching, open-sourcing, and contributing to OTel – that takes some serious product know-how! Read all the blogposts on this amazing journey from here - [https://www.elastic.co/blog/author/israel-ogbole](https://www.elastic.co/blog/author/israel-ogbole)
@@ -34,7 +39,6 @@ Prior to becoming a PM at AppDynamics, I was a Solutions Architect, focusing on 
 I thrive in fast-paced environments, collaborating closely with engineering, design, and marketing teams to deliver exceptional products. My journey from software engineer to product leader gives me a unique perspective, enabling me to bridge the gap between technical complexity and business impact.
 
 
-![enter image description here](https://user-images.githubusercontent.com/2548160/220749559-b16a0aac-9624-42b3-ab61-0c87a7cc326c.jpg#wide)
 
 ### My Approach
 
