@@ -5,100 +5,104 @@ author: israel
 categories: [ 'Cloud Native' ]
 tags:  [ai,cloud-native ]
 image: https://github.com/user-attachments/assets/2828933e-cb22-42f1-8921-eba59d5e61c1
-date:   2025-09-15 06:01:35 +0300
-description: "Product managers and founders: Your user journey maps are obsolete. AI agents don't follow human workflows - they execute directly. Discover the new metrics, economics, and product design principles for the agentic era." 
+date:   2025-09-27 06:01:35 +0300
+description: "AI agents don’t follow human workflows — they execute directly. Here’s how metrics, economics, and product design must evolve for the agentic era" 
 ---
 
-_Product managers and founders: Your user journey maps are obsolete. AI agents don't follow human workflows - they execute directly. Discover the new metrics, economics, and product design principles for the agentic era_
-# Introucing the Agentic Journey
+For years, product managers and founders (myself included) built products around user journeys. We mapped every click, tap, and drop-off point. We obsessed over funnels, session duration, flows, DAU (Daily Active Users), MAU (Monthly Active Users).
+
+That era is ending. The PRD structure must evolve.  
+
+The next generation of **amazing products** won’t be defined by users (painstakingly) clicking or tapping through flows. They’ll be powered by **AI agentic systems** that understand intent, plan across platforms, and execute on behalf of the user.
+
+The [BLUF](https://israelo.io/blog/bluf/) is;  user journeys as we know them are fading, giving way to the **agentic journey**. When designing for product, you must now consider **AI agents** and how they achieve outcomes. Go further by factoring in **token economics** and create **AI eval frameworks** for measuring success. Traditional metrics like clicks, session duration and active session are headed for obsolescence, just like the journeys themselves.
+
+The future belongs to products that orchestrate outcomes, not just user interactions.
+
+# Why This Hit Me
+
+Early in my career at AppDynamics (Cisco), I spent nearly all my time onsite with customers, supporting both pre-sales and post-sales activities (depending on the quarter). Sitting shoulder to shoulder, I could see every hesitation, every workaround, every aha moment. That intimacy shaped how I thought about product.
 
 
-I was a product manager for many years, and now as a founder, I still make lots of product decisions. Across all these years, nearly every product and feature I shipped and every PRD I wrote was anchored around user journeys. What steps does a user take? Where do they drop off? How do we guide them to the outcome?
+During COVID, when I moved into product management full-time, that contact disappeared. PRDs, metrics, and dashboards replaced real-time user insight. FWIW, user interviews are never the same as watching users interact with your product—their body language, the subtle patterns in how they work—you notice things you can never capture in Zoom meetings, metrics, or dashboards.
 
-Most product managers and founders operate in this mindset too. It’s served us well over the years. But it has to change.
+Recently, onsite with a [**zymtrace**](https://zymtrace.com) customer, I felt that old rush again. What struck me wasn’t just how people used the product, but how naturally they leaned on **AI agents** in their IDEs, CLIs, and workflows. Tasks that once required manual steps were now offloaded to agents. It drove home a truth: **the way we build and measure products has to evolve.**
 
-The next generation of amazing products won’t be those built for users to (painstakingly) click or tap their way through flows. They’ll be driven by agents that can understand intent, plan across systems, and execute on behalf of the user.
+The contrast between these experiences—then and now—makes one thing absolutely clear: product design is no longer just about user interaction; it must now include considerations on how AI agents can achieve the intended outcome. We must rethink product success metrics.
 
-My point is simple: user journeys as we know them will fade, giving way to the _agentic journey_. The next time you think about crafting a user journey, start thinking about the **agents** journey and the token economics that come with it.
+## What Really Is the Agentic Journey?
 
+**Agentic journeys** are fundamentally different from traditional user flows. Unlike conventional journeys, they don’t require users to follow predefined paths—they understand the user’s goals from the outset. Agents interpret intent, navigate complexity, and execute tasks on behalf of the user, turning multi-step workflows into seamless outcomes.
 
-## The way we work has changed
+Key characteristics of agentic journeys include:
 
-Before I moved fully into product, I worked as a solution architect at AppDynamics (Cisco). Back then, pre-COVID, traveling 100% onsite to support customers in both pre-sales and post-sales was just normal. I lived in the adrenaline rush of sitting shoulder to shoulder with customers, troubleshooting in real time, watching them use the tools we built. That 1:1 contact shaped how I thought about products.
+* **Fewer apps, fewer tabs** — Agents eliminate context-switching by fetching, integrating, and delivering results directly. Users no longer juggle multiple windows; the agent handles it.
 
-When I transitioned into product during COVID, that touch faded. Metrics, dashboards, PRDs — they took over. I was still close to outcomes, but the joy of seeing users *in the moment* was gone.
+* **Agent-to-agent communication** — Agents coordinate with one another to delegate tasks and orchestrate workflows. Workflows become a collaborative mesh of agents, not a linear sequence of clicks.
 
-That changed recently. On 11 September, I was onsite again, this time helping users with [**zymtrace**](https://zymtrace.com). And what struck me was how naturally teams are now turning to **AI agents** inside their IDEs, in their CLIs, across their workflows to handle tasks that used to require manual steps. It brought me right back to that adrenaline rush of seeing customers use the product live.
+* **Proactivity over reactivity** — Agents anticipate needs and act before being prompted, reducing latency and friction.
 
-Sitting next to someone using your product is irreplaceable: their eye movements, their body language, the subtle patterns in how they work — you pick up things you can never see in Zoom meetings, metrics, or dashboards. It brought me right back to the joy of seeing people use the product live.
+* **Adaptive workflows** — Agents adjust plans in real-time as goals or data change, rather than following rigid, predefined paths.
 
-That experience made me realize something important: _the act of building product has to evolve. The way we measure product success has to evolve. We have to unlearn a lot of what got us here_
+* **Cost per outcome matters** — Efficiency is critical. Excessive compute, tokens, or latency can break the journey.
 
-## What is the agent journey? 
+To cite some examples, the **Agent2Agent (A2A) Protocol**, introduced by Google in April 2025, enables secure communication and collaboration between AI agents across different platforms and vendors. It allows them to share context and coordinate actions seamlessly ([source: Google Developers Blog](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability)). Additionally, the **Agent Payments Protocol (AP2)**, announced in September 2025, provides a standardized framework for secure, compliant transactions conducted by AI agents on behalf of users ([source: Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol)).
 
-User journeys are built around human clicks, taps, and choices. They can be full of friction, branching paths, and edge cases.
+These protocols illustrate how agentic AI systems are evolving to manage complexity, collaborate autonomously, and perform transactions securely, aligning with the characteristics of agentic journeys.
 
-The agentic journey is different. It’s direct. The agent interprets intent, cuts through complexity, and executes the task. From intent to outcome in a straight line.
+## Product Metrics Must Change Too
 
-But there’s more to it than just automation. A few things stand out when you look closely at how agentic journeys are already unfolding:
+When I was at Elastic (as Principal Product Manager), I managed BI for a while. I spent a lot of time diving into metrics: MAU, DAU, product segmentation, retention curves. We lived and died by understanding how users moved through the product.
 
-* **Fewer apps, fewer tabs** — agents remove the need to context-switch. They fetch, integrate, and deliver results directly. Users won’t be juggling ten windows; the agent will.
-* **Agent-to-agent communication** — agents don’t just help users; they delegate and coordinate with other agents. Workflows become a mesh of agents, not a sequence of clicks.
-* **Proactivity over reactivity** — instead of waiting for a command, agents can anticipate needs and act ahead of time.
-* **Adaptive workflows** — agents don’t just follow rigid paths; they can adjust plans on the fly as goals or data change.
-* **Cost per outcome matters** — efficiency isn’t optional. If it takes too many tokens, too much compute, or too much latency, the journey breaks.
+If I were to do it all over again, my approach would be different. The questions aren’t “How many people logged in today?” or “Which feature saw the most clicks?” Instead, they become:
 
-This is what makes the agentic journey so different from traditional user flows. It collapses complexity, reduces friction, and shifts the economic lens of what success means.
+* Did the **agent** complete the intended outcome?
+* How many **tokens** did it cost to get there?
+* Did the product provide the **right context**, quickly and efficiently?
 
+These are **outcome-based metrics**—they reflect the economic reality of building in an agentic world. Engagement for its own sake doesn’t matter anymore. What matters is **efficiency** and **cost per completed outcome**.
 
-## Product metrics nust change
+To make these metrics actionable, I’d build evaluation frameworks (evals) to measure success: automated tests, benchmarks, and simulations that validate whether agents achieve outcomes reliably, efficiently, and safely. This shifts the focus from counting clicks or logins to understanding real impact.
 
-When I was Elastic (as Principal Product Manager), I looked after BI for a while. I spent a lot of time diving into metrics: MAU, DAU, product segmentation, retention curves. We lived and died by understanding how users moved through the product.
+Here’s a polished version of your section with tighter flow, sharper phrasing, and enhanced clarity while keeping your original points intact:
 
-If I were to do it all over again, my approach would be different. The question isn’t “How many people logged in today?” or “Which feature saw the most clicks?” The questions become:
+## Token Economics and Efficiency
 
-* Did the agent complete the outcome?
-* How many tokens did it cost to get there?
-* Did the product provide the right context, quickly and efficiently?
+Agents don’t run for free. Every reasoning step, API call, and chunk of text processed burns tokens—and tokens translate directly into dollars.
 
-These are outcome-based metrics, and they reflect the economic reality of building in an agentic world. Engagement for its own sake doesn’t matter anymore. Efficiency and cost per completed outcome do.
+That means product teams can’t just design for functionality. We need to design for **economic viability**. How many tokens does it take to reach an outcome? Is the workflow efficient enough to scale?
 
+APIs sit at the center of this. Agents don’t care about a beautiful UI—they care about clean, reliable endpoints. That means:
 
-## Token economics and efficiency
+* **Expose everything via API** — Every product feature available to a user should also be accessible programmatically.
+* **Predictable responses** — Agents need consistency, not cleverness.
+* **Minimal payloads** — Return only what’s necessary. Bloated responses waste tokens and context.
+* **Composable endpoints** — Agents should be able to chain actions without brittle hacks.
 
-Agents don’t run for free. Every reasoning step, every API call, every chunk of text processed burns tokens. And tokens translate directly into dollars.
+Products that ignore these principles will quickly become too expensive to use. Products that design for **compression, context, and efficiency** will win.
 
-That means product teams can’t just design for functionality. We need to design for economic viability. How many tokens does it take to get to an outcome? Is the workflow efficient enough that it scales?
-
-APIs sit at the center of this. Agents don’t care about a beautiful UI — they care about clean, reliable endpoints. That means:
-
-* Everything your product does for a user should also be available via API.
-* Responses need to be predictable, not clever.
-* Payloads should return only what’s needed, nothing more. Bloated responses burn tokens and waste context.
-* Endpoints should be composable, so agents can chain actions without brittle hacks.
-
-Products that ignore these principles will become too expensive to use. Products that design for compression, context, and efficiency will win.
-
-Anthropic’s Model Context Protocol (MCP) is an early signal of what’s coming. It shows how agents can manage multi-step processes across tools in a structured, context-aware way.
-
-It’s not just a technical shift. It’s a product strategy shift. The ecosystem is moving toward interoperability and agent-first design.
+Gartner's research underscores this reality. They  predicts that over `40%` of agentic AI projects will be scrapped by the end of 2027 due to escalating costs and unclear business value. Most of these initiatives are still in early, experimental stages and often driven by hype rather than practical application. Gartner also notes a trend of “agent washing,” where vendors mislabel conventional AI tools as agentic without true autonomous capabilities (source: [Reuters](https://www.reuters.com/business/over-40-agentic-ai-projects-will-be-scrapped-by-2027-gartner-says-2025-06-25))
 
 
-## What you must now do
+Anthropic’s **Model Context Protocol (MCP)** is an early signal of what’s coming. It shows how agents can manage multi-step processes across tools in a structured, context-aware way.
+
+This isn’t just a technical shift—it’s a **product strategy shift**. The ecosystem is moving toward **interoperability** and **agent-first design**, where efficiency and cost per outcome drive product decisions.
+
+
+## What You Must Now Do
 
 If you’re building or leading product today, here’s where I’d start:
 
-* Audit your APIs. Can an agent realistically complete your core use case?
-* Re-examine pricing and unit economics with token costs in mind.
-* Position your product as a node in a broader agent-driven ecosystem, not a standalone UI.
-* Start training your team to think in “agentic journeys,” not just user flows.
-* Redefine your metrics: measure outcomes and token efficiency, not just logins and clicks.
+* **Audit your APIs** — Can an agent realistically complete your core use case?
+* **Re-examine pricing and unit economics** — Factor in token costs and operational efficiency.
+* **Position your product as part of an agent-driven ecosystem** — Don’t treat it as a standalone UI.
+* **Train your team to think in “agentic journeys”** — Go beyond traditional user flows.
+* **Redefine your metrics** — Measure outcomes and token efficiency, not just logins and clicks.
 
+## Closing Thought
 
-### Closing thought
+I used to believe product success was about user journeys and engagement metrics. Then I lost that 1:1 connection with customers. Seeing people work live with [**zymtrace**](https://zymtrace.com) reminded me: building product is never static.
 
-I used to believe product success was about user journeys and engagement metrics. Then I lost that 1:1 connection with customers. Seeing people work live with zymtrace reminded me: building product is not static.
+We’re moving from journeys built for people to journeys executed by AI agents. It’s a different game. And if we don’t adjust, our products won’t just be clunky—they’ll be irrelevant.
 
-We’re moving from journeys built for people to journeys executed by agents. It’s a different game. And if we don’t adjust — our products won’t just be clunky, they’ll be irrelevant.
-
-Now’s the time to start designing for the agentic journey, with the right outcomes, the right context, and the right economics.
+Now is the time to start designing for the **agentic journey**: with the right outcomes, the right context, and the right economics.
