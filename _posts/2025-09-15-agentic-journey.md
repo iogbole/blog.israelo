@@ -48,7 +48,7 @@ Key characteristics of agentic journeys include:
 
 To cite some examples, the **Agent2Agent (A2A) Protocol**, introduced by Google in April 2025, enables secure communication and collaboration between AI agents across different platforms and vendors. It allows them to share context and coordinate actions seamlessly ([source: Google Developers Blog](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability)). Additionally, the **Agent Payments Protocol (AP2)**, announced in September 2025, provides a standardized framework for secure, compliant transactions conducted by AI agents on behalf of users ([source: Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol)).
 
-These protocols illustrate how agentic AI systems are evolving to manage complexity, collaborate autonomously, and perform transactions securely, aligning with the characteristics of agentic journeys.
+These protocols illustrate how agentic AI systems are evolving to manage complexity, collaborate autonomously, and perform transactions securely. 
 
 ## Product Metrics Must Change Too
 
