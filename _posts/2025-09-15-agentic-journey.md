@@ -15,7 +15,7 @@ That era is ending. The PRD structure must evolve.
 
 The next generation of **amazing products** won’t be defined by users (painstakingly) clicking or tapping through flows. They’ll be powered by **AI agentic systems** that understand intent, plan across platforms, and execute on behalf of the user.
 
-The [BLUF](https://israelo.io/blog/bluf/) is;  user journeys as we know them are fading, giving way to the **agentic journey**. When designing for product, you must now consider **AI agents** and how they achieve outcomes. Go further by factoring in **token economics** and create **AI eval frameworks** for measuring success. Traditional metrics like clicks, session duration and active session are headed for obsolescence, just like the journeys themselves.
+The [BLUF](https://israelo.io/blog/bluf/) is:  user journeys as we know them are fading, giving way to the **agentic journey**. When designing for product, you must now consider **AI agents** and how they achieve outcomes. Go further by factoring in **token economics** and create **AI eval frameworks** for measuring success. Traditional metrics like clicks, session duration and active sessions are headed for obsolescence, just like the journeys themselves.
 
 The future belongs to products that orchestrate outcomes, not just user interactions.
 
@@ -81,7 +81,7 @@ APIs sit at the center of this. Agents don’t care about a beautiful UI—they 
 
 Products that ignore these principles will quickly become too expensive to use. Products that design for **compression, context, and efficiency** will win.
 
-Gartner's research underscores this reality. They  predicts that over `40%` of agentic AI projects will be scrapped by the end of 2027 due to escalating costs and unclear business value. Most of these initiatives are still in early, experimental stages and often driven by hype rather than practical application. Gartner also notes a trend of “agent washing,” where vendors mislabel conventional AI tools as agentic without true autonomous capabilities (source: [Reuters](https://www.reuters.com/business/over-40-agentic-ai-projects-will-be-scrapped-by-2027-gartner-says-2025-06-25))
+Gartner's research underscores this reality. They predict that over 40% of agentic AI projects will be scrapped by the end of 2027 due to escalating costs and unclear business value. Most of these initiatives are still in early, experimental stages and often driven by hype rather than practical application. Gartner also notes a trend of “agent washing,” where vendors mislabel conventional AI tools as agentic without true autonomous capabilities (source: [Reuters](https://www.reuters.com/business/over-40-agentic-ai-projects-will-be-scrapped-by-2027-gartner-says-2025-06-25))
 
 
 Anthropic’s **Model Context Protocol (MCP)** is an early signal of what’s coming. It shows how agents can manage multi-step processes across tools in a structured, context-aware way.
