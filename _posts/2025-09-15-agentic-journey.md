@@ -40,7 +40,6 @@ Key characteristics of agentic journeys include:
 
 * **Agent-to-agent communication** — Agents coordinate with one another to delegate tasks and orchestrate workflows. Workflows become a collaborative mesh of agents, not a linear sequence of clicks.
 
-* **Proactivity over reactivity** — Agents anticipate needs and act before being prompted, reducing latency and friction.
 
 * **Adaptive workflows** — Agents adjust plans in real-time as goals or data change, rather than following rigid, predefined paths.
 
@@ -62,9 +61,7 @@ If I were to do it all over again, my approach would be different. The questions
 
 These are **outcome-based metrics**—they reflect the economic reality of building in an agentic world. Engagement for its own sake doesn’t matter anymore. What matters is **efficiency** and **cost per completed outcome**.
 
-To make these metrics actionable, I’d build evaluation frameworks (evals) to measure success: automated tests, benchmarks, and simulations that validate whether agents achieve outcomes reliably, efficiently, and safely. This shifts the focus from counting clicks or logins to understanding real impact.
-
-Here’s a polished version of your section with tighter flow, sharper phrasing, and enhanced clarity while keeping your original points intact:
+To make these metrics actionable, I’d build evals to measure success: automated tests, benchmarks, and simulations that validate whether agents achieve outcomes reliably, efficiently, and safely. This shifts the focus from counting clicks or logins to understanding real impact.
 
 ## Token Economics and Efficiency
 
