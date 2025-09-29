@@ -45,7 +45,7 @@ Key characteristics of agentic journeys include:
 
 * **Cost per outcome matters** — Efficiency is critical. Excessive compute, tokens, or latency can break the journey.
 
-To cite some examples, the **Agent2Agent (A2A) Protocol**, introduced by Google in April 2025, enables secure communication and collaboration between AI agents across different platforms and vendors. It allows them to share context and coordinate actions seamlessly ([source: Google Developers Blog](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability)). Additionally, the **Agent Payments Protocol (AP2)**, announced in September 2025, provides a standardized framework for secure, compliant transactions conducted by AI agents on behalf of users ([source: Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol)).
+For example, the [**Agent2Agent (A2A) Protocol**](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability, introduced by Google in April 2025, enables secure communication and collaboration between AI agents across different platforms and vendors. It allows them to share context and coordinate actions seamlessly. Additionally, the [**Agent Payments Protocol (AP2)**](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol), announced in September 2025, provides a standardized framework for secure, compliant transactions conducted by AI agents on behalf of users.
 
 These protocols illustrate how agentic AI systems are evolving to manage complexity, collaborate autonomously, and perform transactions securely. 
 
@@ -63,6 +63,8 @@ These are **outcome-based metrics**—they reflect the economic reality of build
 
 To make these metrics actionable, I’d build evals to measure success: automated tests, benchmarks, and simulations that validate whether agents achieve outcomes reliably, efficiently, and safely. This shifts the focus from counting clicks or logins to understanding real impact.
 
+Here’s a tightened rewrite of that section, with the Gartner citation explicitly tied back to **why token economics matters**:
+
 ## Token Economics and Efficiency
 
 Agents don’t run for free. Every reasoning step, API call, and chunk of text processed burns tokens—and tokens translate directly into dollars.
@@ -78,7 +80,7 @@ APIs sit at the center of this. Agents don’t care about a beautiful UI—they 
 
 Products that ignore these principles will quickly become too expensive to use. Products that design for **compression, context, and efficiency** will win.
 
-Gartner's research underscores this reality. They predict that over 40% of agentic AI projects will be scrapped by the end of 2027 due to escalating costs and unclear business value. Most of these initiatives are still in early, experimental stages and often driven by hype rather than practical application. Gartner also notes a trend of “agent washing,” where vendors mislabel conventional AI tools as agentic without true autonomous capabilities (source: [Reuters](https://www.reuters.com/business/over-40-agentic-ai-projects-will-be-scrapped-by-2027-gartner-says-2025-06-25))
+Gartner’s research underscores this point: more than 40% of agentic AI projects are expected to be scrapped by 2027 because costs spiral out of control and business value remains unclear ([Reuters](https://www.reuters.com/business/over-40-agentic-ai-projects-will-be-scrapped-by-2027-gartner-says-2025-06-25)). In other words, ignoring token economics isn’t just inefficient—it can be fatal to the viability of entire product lines.
 
 
 Anthropic’s **Model Context Protocol (MCP)** is an early signal of what’s coming. It shows how agents can manage multi-step processes across tools in a structured, context-aware way.
@@ -98,8 +100,8 @@ If you’re building or leading product today, here’s where I’d start:
 
 ## Closing Thought
 
-I used to believe product success was about user journeys and engagement metrics. Then I lost that 1:1 connection with customers. Seeing people work live with [**zymtrace**](https://zymtrace.com) reminded me: building product is never static.
+Watching customers use [**zymtrace**](https://zymtrace.com) in real time reminded me that building product is never static.
 
-We’re moving from journeys built for people to journeys executed by AI agents. It’s a different game. And if we don’t adjust, our products won’t just be clunky—they’ll be irrelevant.
+We must shift, albeit gradually, from product journeys designed for people to journeys carried out by AI agents. It’s a new model, and if we don’t adapt, our products won’t just feel clunky; they’ll risk becoming irrelevant.
 
-Now is the time to start designing for the **agentic journey**: with the right outcomes, the right context, and the right economics.
+The next time you discuss product user journeys with your peers or team, ask: *What does the agentic journey look like, and how do we build evals to measure its success?*
