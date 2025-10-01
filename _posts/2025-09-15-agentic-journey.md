@@ -5,7 +5,7 @@ author: israel
 categories: [ 'Cloud Native' ]
 tags:  [ai,cloud-native ]
 image: https://github.com/user-attachments/assets/2828933e-cb22-42f1-8921-eba59d5e61c1
-date:   2025-09-27 06:01:35 +0300
+date:   2025-09-30 06:01:35 +0300
 description: "AI agents don’t follow human workflows — they execute directly. Here’s how metrics, economics, and product design must evolve for the agentic era" 
 ---
 
@@ -34,6 +34,8 @@ The contrast between these experiences—then and now—makes one thing absolute
 
 **Agentic journeys** are fundamentally different from traditional user flows. Unlike conventional journeys, they don’t require users to follow predefined paths—they understand the user’s goals from the outset. Agents interpret intent, navigate complexity, and execute tasks on behalf of the user, turning multi-step workflows into seamless outcomes.
 
+When I say **agent** here, I mean an AI system that, once given a goal, autonomously chooses its next step—selecting and invoking tools, planning or revising its approach, and using real-world feedback (API responses, errors, intermediate state) to iteratively reach an outcome instead of executing a fixed, hardcoded sequence [ref: Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
+
 Key characteristics of agentic journeys include:
 
 * **Fewer apps, fewer tabs** — Agents eliminate context-switching by fetching, integrating, and delivering results directly. Users no longer juggle multiple windows; the agent handles it.
@@ -45,7 +47,8 @@ Key characteristics of agentic journeys include:
 
 * **Cost per outcome matters** — Efficiency is critical. Excessive compute, tokens, or latency can break the journey.
 
-For example, the [**Agent2Agent (A2A) Protocol**](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability, introduced by Google in April 2025, enables secure communication and collaboration between AI agents across different platforms and vendors. It allows them to share context and coordinate actions seamlessly. Additionally, the [**Agent Payments Protocol (AP2)**](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol), announced in September 2025, provides a standardized framework for secure, compliant transactions conducted by AI agents on behalf of users.
+
+For example, the [**Agent2Agent (A2A) Protocol**](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability), introduced by Google in April 2025, enables secure communication and collaboration between AI agents across different platforms and vendors. It allows them to share context and coordinate actions seamlessly. Additionally, the [**Agent Payments Protocol (AP2)**](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol), announced in September 2025, provides a standardized framework for secure, compliant transactions conducted by AI agents on behalf of users.
 
 These protocols illustrate how agentic AI systems are evolving to manage complexity, collaborate autonomously, and perform transactions securely. 
 
