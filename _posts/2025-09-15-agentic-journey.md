@@ -66,7 +66,6 @@ These are **outcome-based metrics**—they reflect the economic reality of build
 
 To make these metrics actionable, I’d build evals to measure success: automated tests, benchmarks, and simulations that validate whether agents achieve outcomes reliably, efficiently, and safely. This shifts the focus from counting clicks or logins to understanding real impact.
 
-Here’s a tightened rewrite of that section, with the Gartner citation explicitly tied back to **why token economics matters**:
 
 ## Token Economics and Efficiency
 
