@@ -34,7 +34,7 @@ The contrast between these experiences—then and now—makes one thing absolute
 
 **Agentic journeys** are fundamentally different from traditional user flows. Unlike conventional journeys, they don’t require users to follow predefined paths—they understand the user’s goals from the outset. Agents interpret intent, navigate complexity, and execute tasks on behalf of the user, turning multi-step workflows into seamless outcomes.
 
-When I say **agent** here, I mean an AI system that, once given a goal, autonomously chooses its next step—selecting and invoking tools, planning or revising its approach, and using real-world feedback (API responses, errors, intermediate state) to iteratively reach an outcome instead of executing a fixed, hardcoded sequence [ref: Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents)
+When I say **agent** here, I mean an AI system that, once given a goal, autonomously chooses its next step—selecting and invoking tools, planning or revising its approach, and using real-world feedback (API responses, errors, intermediate state) to iteratively reach an outcome instead of executing a fixed, hardcoded sequence ([ref: Anthropic: Building effective agents](https://www.anthropic.com/engineering/building-effective-agents))
 
 Key characteristics of agentic journeys include:
 
