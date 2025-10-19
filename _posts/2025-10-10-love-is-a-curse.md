@@ -24,7 +24,8 @@ Since then, I’ve been reflecting on love’s complexity. It feels so beautiful
 Maybe that's the truth of it. The same love that brings immense joy also creates a deep void when it's gone. Grief doesn't end; it transforms. Sometimes it sits quietly beside you. Other times, it swallows the whole day. I suppose I could define grief as the shadow of a jewel.
 
 The very light that fills our lives can also cast the deepest shadow when it fades. Maybe that's the hidden curse of love — that to love deeply is to accept the risk of breaking completely. When you sign up to love and care for anyone, you are implicitly signing up to give them pain or to suffer the pain of an endless grief. Either way, we are cursed.
-Here's the thing that worries me: I love my kids so deeply, and I know that they love me. Now that's a puzzle.
+
+Here's the thing that worries me thiough, I love my kids so deeply, and I know that they love me. Now that's a puzzle.
 
 But here's what I'm learning to hold onto — the curse is also the blessing. Yes, grief is the price of love. Yes, it breaks us. But would I trade away the years with my mum to avoid this pain? Never. Would I love my children less to spare us all future heartbreak? Not for a second.
 
