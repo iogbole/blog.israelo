@@ -21,7 +21,7 @@ I kept asking why the pain felt heavier than the memories. Why grief seemed to d
 
 Since then, I’ve been reflecting on love’s complexity. It feels so beautiful and natural when it flows, but it a heavy burden that only reveals itself in loss. Grief can feel heavier than memory, louder than joy. It threatens to overshadow everything that once made love feel safe. 
 
-Maybe that's the truth of it. The same love that brings immense joy also creates a deep void when it's gone. Grief doesn't end; it transforms. Sometimes it sits quietly beside you. Other times, it swallows the whole day. I suppose I could define grief as the shadow of every jewel.
+Maybe that's the truth of it. The same love that brings immense joy also creates a deep void when it's gone. Grief doesn't end; it transforms. Sometimes it sits quietly beside you. Other times, it swallows the whole day. I suppose I could define grief as the shadow of a jewel.
 
 The very light that fills our lives can also cast the deepest shadow when it fades. Maybe that's the hidden curse of love — that to love deeply is to accept the risk of breaking completely. When you sign up to love and care for anyone, you are implicitly signing up to give them pain or to suffer the pain of an endless grief. Either way, we are cursed.
 Here's the thing that worries me: I love my kids so deeply, and I know that they love me. Now that's a puzzle.
