@@ -15,7 +15,7 @@ Put another way, buried deep within love is something we rarely talk about — i
 
 I’ve been thinking a lot about my mum. I loved her deeply.  I went back to her home in Nigeria this September, the first time since we lost her. It took days before I could walk into her room. Every corner of that house carried her presence. Her voice. Her scent. Her peace. I could almost hear her call my name. It was rough.
 
-I kept asking why the pain felt heavier than the memories. Why grief seemed to drown the love we had. I needed to process this some more, so I pulled out a pen and papaer. 
+I kept asking why the pain felt heavier than the memories. Why grief seemed to drown the love we had. I needed to process this some more, so I pulled out a pen and paper. 
 
  A realization occurred. The hardest part wasn’t just losing her. It was her final five months. **Cancer is a bastard**. It strips away strength and light, leaving only pain. Watching her fade and groan in agony broke something inside me. It replaced my belief in a kind universe with the cold reality of its indifference.
 
