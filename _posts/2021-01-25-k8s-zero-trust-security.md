@@ -10,7 +10,7 @@ description: "The vulnerability in castle-and-moat security systems is exacerbat
 
 ---
 
-Zero trust security is an information technology security model that requires ascetic verification for everyone and everything trying to access resources on a private network, regardless of whether they are sitting within or outside of the network perimeter. There is no single specific technology associated with a zero trust architecture; it is a holistic cyber security methodology that combines various  principles and technology tenets.
+Zero trust security is an information technology security model that requires strict verification for everyone and everything trying to access resources on a private network, regardless of whether they are sitting within or outside of the network perimeter. There is no single specific technology associated with a zero trust architecture; it is a holistic cyber security methodology that combines various  principles and technology tenets.
 
 Traditional network security is based on the military inspired castle-and-moat design. In a castle-and-moat security model, it is difficult to obtain access from outside the network, but by default, everyone inside the network is trusted. The problem with this approach is that once an attacker gains access to the network, they can freely control all content inside.
 
@@ -20,7 +20,7 @@ Zero trust is the foundation of a growing trend of security-first infrastructure
 
 According to a recent publication by the <a href ="https://securitybrief.eu/story/data-breaches-costing-companies-millions-could-incident-response-help" target="_blank"> securitybrief.eu </a>, data breaches cost companies $3.86 million per breach. The other none quantifiable cost that is often not talked about is reputation. Considering the consequences of a data breach to organisations, it should come as no surprise that many organisations are now eager to adopt a zero-trust security policy.
 
-Moreso, since Kubernetes plays a massive role in enabling cloud-native deployments, the question is,  how can a Zero trust model be implemented in a Kubernetes environment? First, let's review the core principles of a Zero trust architecture, then see how they apply to Kubernetes.
+Moreover, since Kubernetes plays a massive role in enabling cloud-native deployments, the question is, how can a Zero trust model be implemented in a Kubernetes environment? First, let's review the core principles of a Zero trust architecture, then see how they apply to Kubernetes.
 
 ## Principles of Zero Trust Architecture
 
@@ -106,7 +106,7 @@ What distinguishes Portshift (in my opinion) is their agentless approach. I have
 
 As applications and networks are becoming increasingly complex, so are security threats. The traditional security perimeter around organisations infrastructure, apps and data is no longer sufficient and does not work with cloud-native and micro-services architecture. Building a Zero trust model into architectures from the ground-up is the best approach for securing cloud-native infrastructure and workloads.
 
-Kubernetes default Network Policies are porous and should not be used as-is in Production. Network Policies and Service Meshes are good entrypoints way to start exploring and implementing Zero Trust Security in Kubernetes, but they do not provide the full benefits of Zero Trust Security. Kubernetes-native security solutions such as Portshift may come handy. Portshift uses an agentless approach which makes it lightweigt and easy to scale.
+Kubernetes default Network Policies are porous and should not be used as-is in Production. Network Policies and Service Meshes are good entrypoints way to start exploring and implementing Zero Trust Security in Kubernetes, but they do not provide the full benefits of Zero Trust Security. Kubernetes-native security solutions such as Portshift may come in handy. Portshift uses an agentless approach which makes it lightweight and easy to scale.
 
 ## References:
 

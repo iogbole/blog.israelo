@@ -29,14 +29,14 @@ Further, distributed tracing tells the story of an end-to-end request - it provi
 
 A single trace generally depicts the activity for a single transaction or request inside the observed application. For example, a check-out request from the browser or mobile device to the database and back. 
 
-The ability to visualise transactions in their entirety makes it possible to compare anomalous traces to performant traces  - to identify discrepancies in behaviour, structure, and time. This information enables you to improve MTTD (Mean Time to Detection) and to better perform RCAs.  
+The ability to visualise transactions in their entirety makes it possible to compare anomalous traces to performant traces - to identify discrepancies in behaviour, structure, and time. This information enables you to improve MTTD (Mean Time to Detection) and to better perform RCAs.
 
 
 ## What is a trace? 
 
 A trace in distributed tracing consists of a sequence of tagged time frames known as spans. A span can be thought of as a single unit of work. 
 
-Moreso, spans have a start and end time and optionally may include other metadata like logs or tags that can help classify “what happened.” Spans have relationships between one another, including parent-child relationships, which are used to show the specific path a particular transaction takes through the numerous services or components that make up the application.
+Moreover, spans have a start and end time and optionally may include other metadata like logs or tags that can help classify "what happened." Spans have relationships between one another, including parent-child relationships, which are used to show the specific path a particular transaction takes through the numerous services or components that make up the application.
 
 Let’s recap: 
 

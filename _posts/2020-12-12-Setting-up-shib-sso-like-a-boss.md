@@ -7,9 +7,9 @@ tags: [sso, ldap, shibboleth ]
 image: https://user-images.githubusercontent.com/2548160/178162960-63208a2b-8812-4fae-8920-8d98b09ad890.jpg
 
 date:   2020-12-12 06:01:35 +0300
-description: "Have you ever wondered how SSO work under the hood? I was battered by various complex SSO/LDAP integration issues, I decided to make it personal..."
+description: "Have you ever wondered how SSO works under the hood? I was battered by various complex SSO/LDAP integration issues, so I decided to make it personal..."
 ---
-Single Sign-On (SSO) is here to stay, and SSO's importance cannot be overemphasised; but have you ever wondered how SSO work under the hood? After being battered by various complex SSO/LDAP integration issues, I decided to unravel the mystery behind the working principle of this authentication method.
+Single Sign-On (SSO) is here to stay, and SSO's importance cannot be overemphasized; but have you ever wondered how SSO works under the hood? After being battered by various complex SSO/LDAP integration issues, I decided to unravel the mystery behind the working principle of this authentication method.
 
 > *"One ring to rule them all, One ring to find them, One ring to bring them all, and in the darkness bind them" - Lord of the Rings*
 
@@ -17,15 +17,15 @@ Single Sign-On (SSO) is here to stay, and SSO's importance cannot be overemphasi
 
 The Lord of the rings' analogy of "one ~~credential~~ ring to rule them" works magic every time I have had to explain what SSO is to my customers; one password for everything.
 
-SSO is an authentication method that enables users to securely log in to one or multiple applications by using just one set of credentials. This single credential is, in most cases,  stored and managed from a central repository called LDAP. When done correctly, users should only have to log in once to access various applications and services across different domains.
+SSO is an authentication method that enables users to securely log in to one or multiple applications by using just one set of credentials. This single credential is, in most cases, stored and managed from a central repository called LDAP. When done correctly, users should only have to log in once to access various applications and services across different domains.
 
-There are various types of SSO authentication, such as Kerberos, Smart-card, IWA, SAML, etc.  This blog post focuses on SAML 2.0, which has three main components, as shown in the diagram below:
+There are various types of SSO authentication, such as Kerberos, Smart-card, IWA, SAML, etc. This blog post focuses on SAML 2.0, which has three main components, as shown in the diagram below:
 
 ![SSO]({{ site.baseurl }}//images/sso_comp.jpg)
 
 I have worked on the Service Provider side of the SSO coin for nearly all of my career; thus, I have seen my fair share of SSO integration complexities and issues.
 
-If you have felt this pain like me, you will agree that the culprit for most SSO integration issues is the Identity Provider &ndash; it's the black box that a few people know how it works and how to troubleshoot. So, I gave myself an unusual challenge to delve into the IdP black box - to understand how it works and explain the concept to my colleagues. Doing this will also mean that we have an SSO lab that can be used for internal testing and PoCs.  
+If you have felt this pain like me, you will agree that the culprit for most SSO integration issues is the Identity Provider; it's the black box that a few people know how it works and how to troubleshoot. So, I gave myself an unusual challenge to delve into the IdP black box - to understand how it works and explain the concept to my colleagues. Doing this will also mean that we have an SSO lab that can be used for internal testing and PoCs.
 
 I decided to use [Shibboleth IdP](https://www.shibboleth.net/) for three main reasons :
 
@@ -285,7 +285,7 @@ Ref : [https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-idp
 
 ##### 6. controller.xml
 
-This is where it got a bit challenging, unlike most applications I have worked with in the past, The Service Provider I used to test this out, AppD, does not provide or generate it's own SAML metadata. This limitation makes it slightly difficult to integrate the Controller with non-cloud-based IdPs like ADFS, PingFed, and especially Shibboleth. I was able to generate a working Controller metadata after a few iterations, and it can be re-used by changing the controller's URL. Download it from [https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-controller-xml](https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-controller-xml), modify it i.e change the controller URL and copy it to _/opt/shibboleth-idp/metadata_
+This is where it got a bit challenging, unlike most applications I have worked with in the past, The Service Provider I used to test this out, AppD, does not provide or generate its own SAML metadata. This limitation makes it slightly difficult to integrate the Controller with non-cloud-based IdPs like ADFS, PingFed, and especially Shibboleth. I was able to generate a working Controller metadata after a few iterations, and it can be re-used by changing the controller's URL. Download it from [https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-controller-xml](https://gist.github.com/iogbole/944996b728af4464c21ecdb7625351a1#file-controller-xml), modify it i.e change the controller URL and copy it to _/opt/shibboleth-idp/metadata_
 
 ##### 7. metadata-providers.xml
 

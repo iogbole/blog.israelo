@@ -17,7 +17,7 @@ My library of reference frameworks is expanding as I progress in my career as a 
 
 ## Porter's 5 Forces
 
-_This one is straight out of business school_.  
+_This one is straight out of business school_.
 Porter's Five Forces is a simple yet effective framework for identifying the primary sources of competition in your industry or sector.
 I use this framework to tactically analyse the market, particularly the competition. When you get a good grasp of the forces affecting your product, you'll be able to adjust your strategy, boost your margin, and stay ahead of the competition.
 
@@ -69,7 +69,7 @@ Further Reading: <a href="https://www.atlassian.com/team-playbook/plays/okrs" ta
 5C Analysis is a marketing framework to analyze the environment in which a company operates. It can provide insight into the key drivers of success, competitive pricing strategy, and risk exposure to various macro-environmental factors. The 5Cs are: 
 
 - <b>C</b>ompany  - What is the company's sustainable advantage? 
-- <b>C</b>ollaborators - This referes to the ecosystem or community that you can build around your product. The Kubernetes ecosystem is a typical example. 
+- <b>C</b>ollaborators - This refers to the ecosystem or community that you can build around your product. The Kubernetes ecosystem is a typical example. 
 - <b>C</b>ustomers  - What's the Total Available Market (TAM), The Serviceable Available Market (SAM) and The Serviceable Obtainable Market (SOM) sub-segment of the market? 
 - <b>C</b>ompetitors - This is where Porter's five forces come in handy  
 - <b>C</b>ontext - The PESTLE analysis of the product or company. 
@@ -82,7 +82,7 @@ Further Reading: <a href="https://www.atlassian.com/team-playbook/plays/okrs" ta
 Further Reading: <a href="https://corporatefinanceinstitute.com/resources/knowledge/strategy/5c-analysis-marketing/" target="_blank"> 5C Analysis </a>
 
 ## RFM 
-The RFM model helps you segment customer data based on user behaviour. This requires a good amount of historical data.  
+The RFM model helps you segment customer data based on user behaviour. This requires a good amount of historical data.
 
 - <b>R</b>ecency - How recent, last 1 day, 1 week, etc? 
 - <b>F</b>requency - How often? 

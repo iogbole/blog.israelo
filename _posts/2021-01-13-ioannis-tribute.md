@@ -70,8 +70,8 @@ I am thankful for the blessing you were to many people. <br/>
 Your memory will live on; my colleague turned friend <br/>
 Goodbye? No, I won't say that. <br/>
 Goodnight? Perhaps so. <br/>
-Good night, for now, Ionnais <br/>
-Καληνυχτα, Ionnais Christoudis <br/>
+Good night, for now, Ioannis <br/>
+Καληνυχτα, Ioannis Christoudis <br/>
 Please catch a good spot for me in the presence of the Lord. <br/>
 Rest On. <br/> 
 Till we meet again. <br/>

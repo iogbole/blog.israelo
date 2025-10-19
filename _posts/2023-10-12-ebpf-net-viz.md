@@ -61,7 +61,7 @@ The goal of this experiment is simple: to collect all TCP retransmissions from t
 ## Why eBPF? 
 eBPF is a revolutionary technology that allows users to extend the functionality of the Linux kernel without having to modify the kernel code itself. It is essentially a lightweight, sandboxed virtual machine that resides within the kernel, offering secure and verified access to kernel memory.
 
-Moreso, eBPF code is typically written in a restricted subset of the `C` language and compiled into eBPF bytecode using a compiler like Clang/LLVM. This bytecode undergoes rigorous verification to ensure that it cannot intentionally or inadvertently jeopardize the integrity of the kernel. Additionally, eBPF programs are guaranteed to execute within a finite number of instructions, making them suitable for performance-sensitive use cases like observability and network security.
+Moreover, eBPF code is typically written in a restricted subset of the `C` language and compiled into eBPF bytecode using a compiler like Clang/LLVM. This bytecode undergoes rigorous verification to ensure that it cannot intentionally or inadvertently jeopardize the integrity of the kernel. Additionally, eBPF programs are guaranteed to execute within a finite number of instructions, making them suitable for performance-sensitive use cases like observability and network security.
 
 Here are some of the key benefits of using eBPF:
 

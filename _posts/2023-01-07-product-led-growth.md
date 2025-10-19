@@ -44,11 +44,11 @@ In this chapter, the author discusses the reasons why product-led growth is beco
 
 ### Chapter 2: Choose Your Weapon—Free Trial, Freemium, or Demo? ###
 
-This covers the different approaches that companies can take to drive product-led growth, including free trials, freemium models, and demos. He provides advice on how to choose the right approach for your business and how to effectively implement it. He also discusses the pros and cons of each approach and provides guidance on how to optimise them for maximum effectiveness.
+This chapter covers the different approaches that companies can take to drive product-led growth, including free trials, freemium models, and demos. He provides advice on how to choose the right approach for your business and how to effectively implement it. He also discusses the pros and cons of each approach and provides guidance on how to optimise them for maximum effectiveness.
 
 ### Chapter 3: Ocean Conditions: Are You in a Red- or Blue-Ocean Business? ###
 
-Wes discusses the concept of red-ocean and blue-ocean businesses and how to determine which type of business you are in. He explains that red-ocean businesses are highly competitive and focused on competing for a limited market share, while blue-ocean businesses focus on creating new markets and finding untapped opportunities. He provides guidance on how to analyse your business and determine which approach is best for you.
+In this chapter, Wes discusses the concept of red-ocean and blue-ocean businesses and how to determine which type of business you are in. He explains that red-ocean businesses are highly competitive and focused on competing for a limited market share, while blue-ocean businesses focus on creating new markets and finding untapped opportunities. He provides guidance on how to analyse your business and determine which approach is best for you.
 
 ### Chapter 4: Audience: Do You Have a Top-Down or Bottom-Up Selling Strategy? ###
 
