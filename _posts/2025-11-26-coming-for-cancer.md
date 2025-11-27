@@ -6,7 +6,7 @@ categories: [ 'personal' ]
 tags: [ mum, life ]
 image: https://github.com/user-attachments/assets/184cc98b-d96a-4c6d-af50-93214d46eabd
 date:   2025-11-27 06:01:35 +0300
-description: "The way smallpox was a global killer. The way polio was a childhood terror. Cancer will be something our grandchildren read about in history books, not something they watch destroy their families." 
+description: "Cancer took too much from me already. I'm not waiting for it to take more. It came for three generations of women in my family. My daughters won’t be next." 
 ---
 
 ## Coming for Cancer With Quantum Power
