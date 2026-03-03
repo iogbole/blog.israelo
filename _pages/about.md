@@ -6,13 +6,13 @@ image: 'https://user-images.githubusercontent.com/2548160/278883116-1e5ec95c-7e3
 ---
 
 
-I'm the CEO of zystem, Inc., and our product, <a href="https://www.zymtrace.com" target="_blank">zymtrace</a>, is a continuous profiling platform for GPU and CPU workloads. 
+I'm the CEO of <a href="https://www.zymtrace.com" target="_blank">zymtrace</a>, a performance optimization platform for AI infrastructure that pinpoints why our customers' GPUs aren't going brrr, and tells them exactly how to fix it.
 
 My work and previous experience give me a unique perspective on AI workloads, cloud-native observability, eBPF, containers, Kubernetes, and OTel.
 
 Outside of work, you’ll usually find me on a long bike ride, playing chess, tinkering with Arduino boards, writing about my experiences, or spending time with my family.
 
-Prior to co-founding zystem, I worked as Principal Product Manager at Elastic. Before that, I was part of the AppDynamics acquisition into Cisco, where I worked as a Solution Architect and eventually transitioned into a Product Management role. Earlier, I was part of the Yammer acquisition into Microsoft. I left Microsoft to join AppDynamics after witnessing the power of observability over my handcrafted DIY solutions at Yammer/Microsoft.
+Prior to co-founding zymtrace, I worked as Principal Product Manager at Elastic. Before that, I was part of the AppDynamics acquisition into Cisco, where I worked as a Solution Architect and eventually transitioned into a Product Management role. Earlier, I was part of the Yammer acquisition into Microsoft. I left Microsoft to join AppDynamics after witnessing the power of observability over my handcrafted DIY solutions at Yammer/Microsoft.
 
 I discovered eBPF from the need to manage and observe my home-lab Kubernetes cluster. I stumbled across Cilium and Hubble, and everything changed from that point—I became a strong believer in the technology. I focus on this space because I’ve seen many organizations invest in observability solutions but struggle to fully leverage them due to the pain and overhead of instrumentation, code changes, and operational complexity.
 
