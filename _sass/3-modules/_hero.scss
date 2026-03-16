@@ -20,14 +20,11 @@
 }
 
 .hero__left {
-  max-width: 450px;
-  margin-right: auto;
-
-  @media only screen and (max-width: 1140px) {
-    max-width: 440px;
-  }
+  flex: 1;
+  padding-right: 60px;
 
   @media only screen and (max-width: $desktop) {
+    padding-right: 0;
     max-width: 100%;
   }
 }
@@ -141,37 +138,19 @@
 
 .hero__image {
   position: relative;
-  transform: translate(0);
   width: 100%;
-  height: 410px;
+  padding-bottom: 56.25%; // 16:9 aspect ratio
+  height: 0;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
-  background-color: var(--background-color);
-  user-select: none;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 
-  img {
+  iframe, img {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-
-  @media only screen and (max-width: 1140px) {
-    height: 380px;
-  }
-
-  @media only screen and (max-width: $desktop) {
-    height: 440px;
-  }
-
-  @media only screen and (max-width: $tablet) {
-    height: 420px;
-  }
-
-  @media only screen and (max-width: $mobile) {
-    height: 280px;
   }
 }

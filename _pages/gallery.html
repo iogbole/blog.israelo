@@ -1,0 +1,22 @@
+---
+layout: page
+title: Gallery
+permalink: /gallery/
+---
+
+{% if site.data.photos.size == 0 or site.data.photos == nil %}
+<p class="gallery-empty">No photos yet. Add entries to <code>_data/photos.yml</code> and drop images in <code>images/gallery/</code>.</p>
+{% else %}
+<div class="gallery-page">
+  {% for photo in site.data.photos %}
+  <div class="gallery-page__item">
+    <div class="gallery__image">
+      <img class="lazy" data-src="{{ photo.url | prepend: site.baseurl }}" alt="{{ photo.alt }}">
+    </div>
+    {% if photo.caption %}
+    <p class="gallery-page__caption">{{ photo.caption }}</p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}

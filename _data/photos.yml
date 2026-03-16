@@ -1,0 +1,68 @@
+# Photo Gallery Data
+# Place image files in /images/gallery/
+
+# --- Personal ---
+
+- url: /images/gallery/1-israel-zt.jpg
+  alt: "Israel"
+  caption: "Head shot with my zymtrace swag"
+
+
+- url: /images/gallery/4israel-joel-co-founder-zymtrace.jpg
+  alt: "israel & Joel"
+  caption: "With Joel, my co-founder at zymtrace"
+
+
+- url: /images/gallery/israel.jpg
+  alt: "Israel"
+  caption: ""
+
+
+- url: /images/gallery/1.1-israel-me.jpg
+  alt: "Israel"
+  caption: ""
+
+- url: /images/gallery/2-israel-look-me-in-the-eyes.jpg
+  alt: "Israel"
+  caption: ""
+  
+
+
+
+- url: /images/gallery/5israel-when-serious.jpg
+  alt: "Israel looking serious"
+  caption: "When I'm in the zone"
+
+
+
+
+# --- Work & People ---
+
+- url: /images/gallery/11-liz-rice.jpg
+  alt: "Liz Rice"
+  caption: "My daughter Rochelle once asked, “Dad, are you watching that Lize Rize lady again?” I had been watching her videos to learn about eBPF. So when I finally met her in person, I had to take a selfie."
+
+- url: /images/gallery/1.2zymtrace-team-offsite-dublin.jpg
+  alt: "zymtrace team offsite in Dublin"
+  caption: "zymtrace team offsite — Dublin"
+
+- url: /images/gallery/3-israel-dinner-with-asaf.jpg
+  alt: "Israel and Asaf at dinner"
+  caption: "Dinner with Asaf"
+
+- url: /images/gallery/8presenting-profiling-with-thomas.png
+  alt: "Israel presenting profiling with Thomas"
+  caption: "Presenting profiling with Thomas"
+
+- url: /images/gallery/7-mean-time-to-dopamine-preentation.JPG
+  alt: "Mean time to dopamine presentation"
+  caption: "Mean time to dopamine — talk"
+
+- url: /images/gallery/9presenting-profiling.png
+  alt: "Israel presenting profiling"
+  caption: "Presenting profiling"
+
+
+- url: /images/gallery/10-isrel-kube-con.png
+  alt: "At Kubecon paris"
+  caption: "At Kubecon paris"

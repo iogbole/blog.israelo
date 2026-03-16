@@ -21,3 +21,48 @@
     }
   }
 }
+
+/* Gallery Page */
+.gallery-page {
+  columns: 2;
+  column-gap: 20px;
+
+  @media (max-width: 480px) {
+    columns: 1;
+  }
+
+  .gallery-page__item {
+    break-inside: avoid;
+    margin-bottom: 20px;
+
+    .gallery__image {
+      overflow: hidden;
+      border-radius: $global-radius;
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: $global-transition;
+        cursor: zoom-in;
+
+        &:hover {
+          transform: scale(1.03);
+        }
+      }
+    }
+  }
+}
+
+.gallery-page__caption {
+  margin: 8px 0 0;
+  font-size: 14px;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--text-alt-color);
+}
+
+.gallery-empty {
+  color: var(--text-alt-color);
+  font-style: italic;
+}
